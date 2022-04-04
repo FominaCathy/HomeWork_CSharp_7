@@ -1,0 +1,8 @@
+C:\_GB\01. Программирование\C#\HomeWork_7\Task_50\bin\Debug\Task_50.exe.config
+C:\_GB\01. Программирование\C#\HomeWork_7\Task_50\bin\Debug\Task_50.exe
+C:\_GB\01. Программирование\C#\HomeWork_7\Task_50\bin\Debug\Task_50.pdb
+C:\_GB\01. Программирование\C#\HomeWork_7\Task_50\obj\Debug\Task_50.csproj.AssemblyReference.cache
+C:\_GB\01. Программирование\C#\HomeWork_7\Task_50\obj\Debug\Task_50.csproj.SuggestedBindingRedirects.cache
+C:\_GB\01. Программирование\C#\HomeWork_7\Task_50\obj\Debug\Task_50.csproj.CoreCompileInputs.cache
+C:\_GB\01. Программирование\C#\HomeWork_7\Task_50\obj\Debug\Task_50.exe
+C:\_GB\01. Программирование\C#\HomeWork_7\Task_50\obj\Debug\Task_50.pdb
