@@ -18,8 +18,8 @@ namespace ADD_Task_3
     {
         static void Main(string[] args)
         {
-            int[,] array = new int[5, 5];// { { 1, 0, 0, 0, 0 }, { 1, 1, 1, 1, 0 }, { 0, 1, 0, 1, 0 }, { 0, 0, 1, 1, 1 }, { 0,1,0,0,1} };
-            
+            int[,] array = new int[5, 5];// { { 1, 0, 0, 0, 0 }, { 1, 1, 1, 1, 1 }, { 1, 1, 0, 0, 1 }, { 1, 0, 1, 1, 1 }, { 1,1,1,1,1} }; //
+
             // для квадратного поля
             int leni = array.GetLength(0);
             int lenj = array.GetLength(1);
@@ -91,14 +91,19 @@ namespace ADD_Task_3
 
             void CheckPos (int i, int j) //проверяю возможность шага вправо и вниз
             {
-                if ((j < leni-1)&(i < leni - 1))
-                {
-                    if (array[i, j + 1] == 1) //вправо
-                        array[i, j + 1] += array[i, j];
-
+                
+                
+                if (j < leni - 1)
+                    {
+                        if (array[i, j + 1] == 1) //вправо
+                            array[i, j + 1] += array[i, j];
+                    }
+                if (i < leni - 1)
+                    {
                     if (array[i + 1, j] == 1) //вниз
                         array[(i + 1), j] += array[i, j];
-                }
+                    }
+                
             }
         }
     }
